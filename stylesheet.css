@@ -21,29 +21,61 @@ body,
 }
 
 #header {
+  display: grid;
   grid-column: 4 / 13;
   grid-row: 1 / 3;
+  margin-left: -5px;
+
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 50% 50%;
 }
 
+.search-bar {
+  display: flex;
+  place-self: center;
+  width: 80%;
+}
+
+.header-account {
+  place-self: center;
+}
+
+.header-buttons {
+  place-self: center;
+}
+
+.span-spacing,
+.btn {
+  margin: 15px;
+}
+
+/* Sidebar Start*/
 #sidebar {
   display: grid;
   grid-column: 1 / 4;
   grid-row: 1 / 13;
 
   grid-template-rows: 10% 30% 1fr;
+
+  background-color: #0ea5e9;
 }
 
 .sidebar-text-dash {
-  font-size: 3.5vw;
+  font-size: 30px;
+  color: white;
 }
 
 .sidebar-text {
-  font-size: 2.5vw;
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.sidebar-group {
-  padding: 10px;
+.sidebar-group1,
+.sidebar-group2 {
+  margin-left: 20px;
 }
+/* Sidebar End*/
 
 .p-title {
   grid-column: 4 / 6;

@@ -16,16 +16,46 @@
   </head>
   <body>
     <div id="wrapper">
-      <div id="header" class="section">Header</div>
+      <!--Header Start-->
+      <div id="header" class="section">
+        <div class="search-bar">
+          <span><img src="*" alt="*" /></span>
+          <div class="input-group rounded">
+            <input
+              type="search"
+              class="form-control rounded bg-body-tertiary"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+          </div>
+        </div>
 
+        <div class="header-account">
+          <span class="span-spacing"><img src="*" alt="*" /></span>
+          <span class="span-spacing"><img src="*" alt="*" /></span>
+          Morgan Oakley
+        </div>
+
+        <div>Account</div>
+
+        <div class="header-buttons">
+          <button type="button" class="btn btn-primary">New</button>
+          <button type="button" class="btn btn-primary">Upload</button>
+          <button type="button" class="btn btn-primary">Share</button>
+        </div>
+      </div>
+      <!--Header End-->
+
+      <!--Sidebar start-->
       <div id="sidebar" class="section">
-        <div class="side-sect1">
+        <div class="dashboard-group">
           <img src="*" alt="*" />
           <span class="sidebar-text-dash">Dashboard</span>
         </div>
 
         <!-- Group 1 -->
-        <div class="sidebar-group">
+        <div class="sidebar-group1">
           <div>
             <img src="*" alt="*" />
             <span class="sidebar-text">Home</span>
@@ -58,7 +88,7 @@
         </div>
 
         <!-- Group 2 -->
-        <div>
+        <div class="sidebar-group2">
           <div>
             <img src="*" alt="*" />
             <span class="sidebar-text">Settings</span>
@@ -75,6 +105,7 @@
           </div>
         </div>
       </div>
+      <!--Sidebar End-->
 
       <div class="p-title">Your Projects</div>
       <div id="projects" class="section">Projects</div>
