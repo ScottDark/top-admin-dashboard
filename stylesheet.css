@@ -26,8 +26,23 @@ body,
 }
 
 #sidebar {
+  display: grid;
   grid-column: 1 / 4;
   grid-row: 1 / 13;
+
+  grid-template-rows: 10% 30% 1fr;
+}
+
+.sidebar-text-dash {
+  font-size: 3.5vw;
+}
+
+.sidebar-text {
+  font-size: 2.5vw;
+}
+
+.sidebar-group {
+  padding: 10px;
 }
 
 .p-title {
@@ -45,7 +60,7 @@ body,
   grid-row: 3 / 4;
 }
 
-#announcments {
+#announcements {
   grid-column: 10 / 13;
   grid-row: 4 / 7;
 }
