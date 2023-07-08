@@ -32,12 +32,17 @@ body,
 
 .search-bar {
   display: flex;
-  place-self: center;
   width: 80%;
 }
 
-.header-account {
+.header-account,
+.search-bar,
+.header-buttons {
   place-self: center;
+}
+
+.header-welcome {
+  display: flex;
 }
 
 .header-buttons {
@@ -47,6 +52,11 @@ body,
 .span-spacing,
 .btn {
   margin: 15px;
+}
+
+.header-welcome > h4 {
+  font-weight: 800;
+  place-self: center;
 }
 
 /* Sidebar Start*/
