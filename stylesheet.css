@@ -35,8 +35,17 @@ body,
   grid-template-rows: 50% 50%;
 }
 
+.search-bar > span > img {
+  width: 50%;
+}
+
+.header-account > .span-spacing > img {
+  width: 8%;
+}
+
 .search-bar {
-  display: flex;
+  display: grid;
+  grid-template-columns: 10% 90%;
   width: 80%;
 }
 
@@ -48,6 +57,10 @@ body,
 
 .header-welcome {
   display: flex;
+}
+
+.header-welcome > .span-spacing > img {
+  width: 30%;
 }
 
 .span-spacing,
@@ -90,6 +103,15 @@ body,
 .sidebar-group2 {
   margin-left: 20px;
 }
+
+.dashboard-group > img {
+  width: 20%;
+}
+
+.sidebar-group1 > div > img,
+.sidebar-group2 > div > img {
+  width: 20%;
+}
 /* Sidebar End*/
 
 .p-title {
@@ -129,6 +151,10 @@ body,
   gap: 20px;
 }
 
+.project-card-buttons > img {
+  width: 3.5%;
+}
+
 .a-title {
   grid-column: 10 / 12;
   grid-row: 3 / 4;
@@ -158,6 +184,10 @@ body,
   margin-right: 30px;
   margin-left: 15px;
   margin-bottom: 30px;
+}
+
+#trending > .span-spacing > img {
+  width: 20%;
 }
 
 .tr-title,
